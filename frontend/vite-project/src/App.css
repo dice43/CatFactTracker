@@ -1,8 +1,17 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@base;
+@utilities;
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+@theme {
+  --font-outfit: "Outfit", sans-serif; 
 }
 
 .logo {
